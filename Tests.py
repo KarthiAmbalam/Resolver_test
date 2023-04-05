@@ -45,6 +45,7 @@ for e in list_group:
 #print(list_values)
 #length of list
 print('Number of Values in list : '+str(len(list_values)))
+assert len(list_values) == 3
 
 #gets item value and badge
 def val(i):
